@@ -30,43 +30,43 @@ This is a simple command-line interface (CLI) application for managing tasks.
 
 - **Add a Task**
 ```bash
-node index.js add "Drink a Coffee"
+node task.js add "Drink a Coffee"
 ```
 
 - **List all Tasks**
 ```bash
-node index.js list
+node task.js list
 ```
 - **or by list the tasks by status**
 ```bash
 # To list the tasks that are marked as to-do
-node index.js list to-do
+node task.js list to-do
 
 # To list the tasks that are marked as in-progess
-node index.js list in-progress
+node task.js list in-progress
 
 # To list the tasks that are marked as done
-node index.js list done
+node task.js list done
 ```
 
 - **Update a Task**
 ```bash
-node index.js update 1 "Drink a Coffee and Do Coding"
+node task.js update 1 "Drink a Coffee and Do Coding"
 ```
 
 - **Mark Task Status**
 ```bash
 # Mark as `in-progress` with containing task ID as 1
-node index.js mark-in-progress 1
+node task.js mark-in-progress 1
 
 # Mark as `done` with containing task ID as 1
-node index.js mark-done 1
+node task.js mark-done 1
 ```
 
 - **Delete a Task**
 ```bash
 # Delete the task by containing its ID 1
-node index.js delete 1
+node task.js delete 1
 ```
 
 ### Sample JSON structure
